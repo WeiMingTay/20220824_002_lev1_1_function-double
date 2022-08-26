@@ -1,7 +1,7 @@
 # 20220824_JS_lev1_1_function-double
 superCode
 
-Link zur Seite: https://weimingtay.github.io/20220824_JS_lev1_1_function-double/
+Link zur Seite: https://weimingtay.github.io/20220824_002_lev1_1_function-double/
 
 Aufgabenstellung
 
