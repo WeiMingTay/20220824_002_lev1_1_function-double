@@ -8,18 +8,24 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <h1>function-double</h1>
     <section>
+        <h1>function-double</h1>
         <form action="" onsubmit="return false">
             <article>
-                <label for="input__number">Nummer</label>
-                <input onchange="getNumber()" type="number" name="age" id="input__number">
+                <!-- <label for="input__number">Nummer</label> -->
+                <input placeholder="Nummer eingeben" onchange="getNumber()" type="number" name="age" id="input__number">
             </article>
-            <button onclick="multiplyByTwo()"><em>mal</em> 2</button>
+            <!-- <button onclick="multiplyByTwo()"><em>mal</em> 2</button>
+            <button onclick="multiplyByThree()"><em>mal</em> 3</button>
+            <br> -->
+            <button class="pfeil" onclick="multiplySubstract()">⬅️</button>
+            <button onclick="multiplyByX()" id="multiplyBy"><em>mal</em> 2</button>
+            <button class="pfeil" onclick="multiplyAdd()">➡️</button>
         </form>
-        <article>
+        <article id="number">
             <p id="showNumber"></p>
         </article>
+        <p onclick="reset()" id="reset">❌</p>
     </section>
 
     <script src="assets/js/script.js"></script>
